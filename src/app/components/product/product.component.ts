@@ -22,5 +22,8 @@ export class ProductComponent implements OnInit {
       return this.products = data;
     })
   }
-
+  //aca conecto el componente product con el servicio store
+  addToCart(product: Product){
+    return this.storeServices.addProduct(product);
+  }
 }

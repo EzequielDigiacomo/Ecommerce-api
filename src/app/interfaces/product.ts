@@ -7,4 +7,5 @@ export interface Product {
     category: [
         name: string
     ],
+    cantidad : number
 }

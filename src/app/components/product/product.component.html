@@ -7,8 +7,8 @@
     <!-- <img [src]="product.images" alt="" /> -->
     <p>{{ product.description }}</p>
   </div>
-  <div class="product-footer">
-    <button class="button" >
+  <div class="product-footer" >
+    <button class="button" (click)="addToCart(product)">
       <i class="fa-solid fa-basket-shopping"></i>
     </button>
   </div>
